@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Good day <%= data.name %>...</h1>
+    <br>
+    <h2>Welcome to our beloved Showroom ^_^</h2>
+    <br>
+    <b>
+        <p>
+            Wanna change's something in your Profile? click 
+            <button>
+                <a href="/customers/<%=data.id%>/yourProfile"><b>HERE</b></a>
+            </button>
+        </p>
+        <p>
+            Looking for your lucky car today?
+            Come take a look
+            <button>
+                <a href="/cars/<%=data.username%>"><b>HERE</b></a>
+            </button> 
+        </p>
+    </b>
+    <br>
+</body>
+</html>

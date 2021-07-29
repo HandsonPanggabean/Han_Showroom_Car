@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Gallardo",
+        "merk": "Lamborghini",
+        "released_year": 2000,
+        "cost": 5000000,
+        "stock": 10
+    },
+    {
+        "name": "Pininfarina Sergio",
+        "merk": "Ferrari",
+        "released_year": 2000,
+        "cost": 69000000,
+        "stock": 3
+    },
+    {
+        "name": "Divo",
+        "merk": "Bugatti",
+        "released_year": 2000,
+        "cost": 86000000,
+        "stock": 2
+    },
+    {
+        "name": "Sweptail",
+        "merk": "Rolls Royce",
+        "released_year": 2000,
+        "cost": 180000000,
+        "stock": 1
+    },
+    {
+        "name": "Hypersport",
+        "merk": "Lykan",
+        "released_year": 2000,
+        "cost": 46000000,
+        "stock": 5
+    },
+    {
+        "name": "Trevita",
+        "merk": "Koenigsegg CCXR",
+        "released_year": 2000,
+        "cost": 68000000,
+        "stock": 6
+    },
+    {
+        "name": "California T",
+        "merk": "Ferrari",
+        "released_year": 2000,
+        "cost": 8600000,
+        "stock": 8
+    },
+    {
+        "name": "Land Rover",
+        "merk": "Range Rover Velar",
+        "released_year": 2000,
+        "cost": 2500000,
+        "stock": 15
+    },
+    {
+        "name": "X6",
+        "merk": "BMW",
+        "released_year": 2000,
+        "cost": 2150000,
+        "stock": 20
+    },
+    {
+        "name": "Camaro RS",
+        "merk": "Chevrolet",
+        "released_year": 2000,
+        "cost": 2200000,
+        "stock": 18
+    }
+]

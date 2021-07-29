@@ -1,0 +1,16 @@
+[
+    {
+        "name": "budi",
+        "username": "budi123",
+        "password": "budi123",
+        "phone_number": "081208120812",
+        "gender": "male"
+    },
+    {
+        "name": "bodi",
+        "username": "bodi123",
+        "password": "bodi123",
+        "phone_number": "081208120813",
+        "gender": "female"
+    }
+]

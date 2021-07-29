@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>List Cars</h1>
+    <table border="1">
+        <tr>
+            <td>Name</td>
+            <td>Brand</td>
+            <td>Released year</td>
+            <td>Cost</td>
+            <td>Stock</td>
+            <td>Action</td>
+        </tr>
+        <% for (let i = 0; i < data.length; i++) { %>
+            <tr>
+                <td><%= data[i].name %></td>
+                <td><%= data[i].merk %></td>
+                <td><%= data[i].released_year %></td>
+                <td><%= data[i].cost %></td>
+                <td><%= data[i].stock %></td>
+                <td>
+                    <button>
+                        <a href="/cars/<%=data[i].id%/addStock>">Purchase Form</a>
+                    </button>
+                    <button>
+                        <a href="/cars/<%=data[i].id%/delete>">Purchase Form</a>
+                    </button>
+                </td>
+            </tr>
+        <% } %>
+    </table>
+</body>
+</html>
