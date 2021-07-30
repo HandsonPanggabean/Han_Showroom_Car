@@ -13,12 +13,14 @@ class ControllerHome {
                 username: req.body.username
             }
         })
-        .then(data => {
-            if(bcrypt.compareSync(req.body.password, data.password)) {
-                req.session.isLogin = true
-                res.redirect(`/customers/${req.body.username}/greetings`)
-            }
-        })
+            .then(data => {
+                if(bcrypt.compareSync(req.body.password, data.password)) {
+                    req.session.isLogin = true
+                    res.redirect(`/customers/${req.body.username}/greetings`)
+                }
+            })
+            .catch(err => res.redirect('/'))
+            // .catch(err => res.send(err))
     }
 
     static getSignUp(req, res) {

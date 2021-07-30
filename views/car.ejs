@@ -14,7 +14,6 @@
             <td>Brand</td>
             <td>Released year</td>
             <td>Cost</td>
-            <td>Stock</td>
             <td>Action</td>
         </tr>
         <% for (let i = 0; i < obj.car.length; i++) { %>
@@ -23,7 +22,6 @@
                 <td><%=obj.car[i].merk %></td>
                 <td><%=obj.car[i].released_year %></td>
                 <td><%= getRupiahIDR(obj.car[i].cost)%></td>
-                <td><%=obj.car[i].stock %></td>
                 <td>
                     <button>
                         <a href="/cars/<%=obj.customer.username%>/purchaseForm/<%=obj.car[i].id%>">Purchase Form</a>
